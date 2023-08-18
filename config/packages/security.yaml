@@ -1,0 +1,18 @@
+security:
+  encoders:
+    App\Entity\User:
+      algorithm: bcrypt
+
+  providers:
+    # used to reload user from session & other features (e.g. switch_user)
+    app_user_provider:
+      entity:
+        class: App\Entity\User
+        property: name
+
+  firewalls:
+    dev:
+      pattern: ^/(_(profiler|wdt)|css|images|js)/
+      security: false
+    main:
+      anonymous: ~

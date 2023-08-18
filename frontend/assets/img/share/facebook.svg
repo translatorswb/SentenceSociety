@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28.15 28.15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="14.08" y1="28.15" x2="14.08" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#825fa3"/>
+      <stop offset="0.21" stop-color="#7e5fa3"/>
+      <stop offset="0.43" stop-color="#7161a5"/>
+      <stop offset="0.66" stop-color="#5b63a7"/>
+      <stop offset="0.89" stop-color="#3e65aa"/>
+      <stop offset="1" stop-color="#2d67ac"/>
+    </linearGradient>
+  </defs>
+  <title>facebook</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M0,0V28.15H15V17.28H11.33V12.84H15V9.11A4.91,4.91,0,0,1,19.9,4.2h3.84v4H21a1.56,1.56,0,0,0-1.56,1.56v3.09h4.24l-.59,4.44H19.43V28.15h8.72V0Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.22 27.72">
+    <defs>
+        <style>.cls-1{fill:#fff;}.cls-2{fill:#f37024;}</style>
+    </defs>
+    <title>eye</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path class="cls-1"
+                  d="M.62,14.83l-.62-1,.6-.93A27.56,27.56,0,0,1,23.56,0q.7,0,1.4,0A27.48,27.48,0,0,1,46.6,12.9l.62,1-.6.93a27.56,27.56,0,0,1-23,12.93q-.7,0-1.4,0A27.48,27.48,0,0,1,.62,14.83Z"/>
+            <circle class="cls-2" cx="23.07" cy="13.91" r="7.69"/>
+        </g>
+    </g>
+</svg>

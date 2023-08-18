@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-7 0 44 45.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1.04px;
+      }
+    </style>
+  </defs>
+  <title>questionmark</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M11,31.1c-.07-5,1-7.19,5.74-11.15a20.76,20.76,0,0,0,3.41-3.4A8.44,8.44,0,0,0,21.6,12c0-3.65-2.78-6.13-6.74-6.13A7.16,7.16,0,0,0,8.62,9.06c-.93,1.3-1.24,2-2,5L.52,13C2.25,4.54,6.89.52,15,.52S28.15,5,28.15,12.34a11.53,11.53,0,0,1-3.21,8.11,37.59,37.59,0,0,1-4.89,4.46c-2.78,2.35-3.95,4.39-3.89,6.8v1.61H11Zm-.5,7.3h6.31v7H10.47Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+{
+  "name": "FrontendApp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/enzyme": "^3.10.12",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-redux": "^7.1.25",
+    "classnames": "^2.3.2",
+    "css-loader": "^6.7.3",
+    "enzyme": "^3.11.0",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.8.1",
+    "raven-js": "^3.27.2",
+    "react": "^18.2.0",
+    "react-country-region-selector": "^3.6.1",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "scheduler": "^0.23.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.9.5",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@symfony/webpack-encore": "^0.33.0",
+    "babel-preset-react": "^6.24.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-scripts-ts": "3.1.0"
+  },
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  }
+}

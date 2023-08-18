@@ -1,0 +1,118 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+next_translation_source_assignment:
+  path: /api/source/next
+  controller: App\Controller\Api\TranslationController::nextSourceAssignment
+  methods: [POST]
+
+#add_translation_source_flag:
+#  path: /api/source/{sourceId}/flag
+#  controller: App\Controller\Api\TranslationController::flagSource
+#  methods: [POST]
+
+skip_next_translation_source_assignment:
+  path: /api/source/{sourceId}/skip_next
+  controller: App\Controller\Api\TranslationController::skipAndNextSourceAssignment
+  methods: [POST]
+
+next_translation_target_assignment:
+  path: /api/target/next
+  controller: App\Controller\Api\TranslationController::nextTargetAssignment
+  methods: [POST]
+
+skip_next_translation_target_assignment:
+  path: /api/target/{targetId}/skip_next
+  controller: App\Controller\Api\TranslationController::skipAndNewTargetAssignment
+  methods: [POST]
+
+add_translation_target:
+  path: /api/source/{sourceId}/target
+  controller: App\Controller\Api\TranslationController::addTarget
+  methods: [POST]
+
+add_translation_target_rating:
+  path: /api/target/{targetId}/rating
+  controller: App\Controller\Api\TranslationController::rateTarget
+  methods: [POST]
+
+add_translation_target_flag:
+  path: /api/target/{targetId}/flag
+  controller: App\Controller\Api\TranslationController::flagTarget
+  methods: [POST]
+
+user_profile:
+  path: /api/profile
+  controller: App\Controller\Api\ProfileController::profile
+  methods: [GET]
+
+user_login:
+  path: /api/login
+  controller: App\Controller\Api\ProfileController::login
+  methods: [POST]
+
+user_logout:
+  path: /api/logout
+  controller: App\Controller\Api\ProfileController::logout
+  methods: [POST]
+
+user_profile_name_change:
+  path: /api/profile/nameChange
+  controller: App\Controller\Api\ProfileController::nameChange
+  methods: [POST]
+
+user_register:
+  path: /api/register
+  controller: App\Controller\Api\ProfileController::register
+  methods: [POST]
+
+user_add_email:
+  path: /api/addemail
+  controller: App\Controller\Api\ProfileController::addEmail
+  methods: [POST]
+
+user_add_country:
+  path: /api/addcountry
+  controller: App\Controller\Api\ProfileController::addCountry
+  methods: [POST]
+
+user_name_check:
+  path: /api/checkname
+  controller: App\Controller\Api\ProfileController::checkname
+  methods: [POST]
+
+user_email_verification:
+  path: /emailverification/{token}
+  controller: App\Controller\Api\ProfileController::emailVerification
+  methods: [GET]
+
+user_forgot_password:
+  path: /api/forgotpassword
+  controller: App\Controller\Api\ProfileController::forgotpassword
+  methods: [POST]
+
+user_reset_password:
+  path: /reset/{token}
+  controller: App\Controller\Api\ProfileController::resetPassword
+  methods: [GET, POST]
+
+email_test:
+  path: /emailtest
+  controller: App\Controller\Api\ProfileController::emailTest
+  methods: [GET,POST]
+
+stats_random:
+  path: /api/stats/random
+  controller: App\Controller\Api\StatsController::randomStats
+  methods: [GET]
+
+stats_home:
+  path: /api/stats/home
+  controller: App\Controller\Api\StatsController::homeStats
+  methods: [GET]
+
+user_request_bonus:
+  path: /api/requestbonus
+  controller: App\Controller\Api\ProfileController::requestBonus
+  methods: [POST]

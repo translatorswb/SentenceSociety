@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Sentence Society</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- site owner verification -->
+    <meta name="google-site-verification" content="Pj536TqOe4QqrB5pbZ5c1N6C9QelWYxIuUKQuQVU1M4" />
+
+    <!-- social -->
+    <meta property="og:title" content="Sentence Society">
+    <meta property="og:description" content="CLEAR Global is creating a Kinyarwanda and English machine translation. We're inviting you to contribute translations so that we together can help bridging the language barrier between those speaking Tigrinya and those who don't.">
+    <meta property="og:image" content="https://www.sentencesociety.org/tss-share.png">
+    <meta property="og:url" content="https://www.sentencesociety.org">
+    <meta name="twitter:card" content="summary">
+
+    <meta name="theme-color" content="#5E67AB">
+
+    <link rel="stylesheet" href="https://use.typekit.net/vbo6fmw.css">
+    <link href="/build/app.css" rel="stylesheet">
+    <script type="text/javascript" src="/build/runtime.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"></script>
+    <style>
+        .spinner-wrap {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height:50px;
+            width:50px;
+            margin:0;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .spinner {
+            position: relative;
+            height:50px;
+            width:50px;
+            -webkit-animation: rotation .6s infinite linear;
+            -moz-animation: rotation .6s infinite linear;
+            -o-animation: rotation .6s infinite linear;
+            animation: rotation .6s infinite linear;
+            border-left:6px solid #CBD9EB;
+            border-right:6px solid #CBD9EB;
+            border-bottom:6px solid #CBD9EB;
+            border-top:6px solid #5280BD;
+            border-radius:100%;
+        }
+
+        @-webkit-keyframes rotation {
+            from {-webkit-transform: rotate(0deg);}
+            to {-webkit-transform: rotate(359deg);}
+        }
+        @-moz-keyframes rotation {
+            from {-moz-transform: rotate(0deg);}
+            to {-moz-transform: rotate(359deg);}
+        }
+        @-o-keyframes rotation {
+            from {-o-transform: rotate(0deg);}
+            to {-o-transform: rotate(359deg);}
+        }
+        @keyframes rotation {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(359deg);}
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YMBVQQ9CBZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YMBVQQ9CBZ');
+</script>
+    <script>
+        var isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
+        if(isIE){
+            alert("Sorry, this site doesn't work correctly in Internet Explorer. Please use another browser.");
+        }
+    </script>
+</head>
+<body>
+<div id="root">
+    <div class="spinner-wrap">
+        <div class="spinner"></div>
+    </div>
+</div>
+<script type="text/javascript" src="/build/app.js"></script></body>
+</html>

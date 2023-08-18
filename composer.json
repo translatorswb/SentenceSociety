@@ -1,0 +1,83 @@
+{
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^7.1.3",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "ext-json": "*",
+        "beberlei/doctrineextensions": "^1.2",
+        "doctrine/doctrine-bundle": "*",
+        "doctrine/doctrine-migrations-bundle": "*",
+        "doctrine/orm": "*",
+        "nelmio/cors-bundle": "*",
+        "symfony/apache-pack": "*",
+        "symfony/console": "*",
+        "symfony/flex": "*",
+        "symfony/framework-bundle": "*",
+        "symfony/monolog-bundle": "*",
+        "symfony/requirements-checker": "*",
+        "symfony/security-bundle": "*",
+        "symfony/swiftmailer-bundle": "*",
+        "symfony/yaml": "*"
+    },
+    "require-dev": {
+        "dama/doctrine-test-bundle": "*",
+        "helmich/phpunit-json-assert": "*",
+        "phpunit/phpunit": "*",
+        "symfony/browser-kit": "*",
+        "symfony/dotenv": "*",
+        "symfony/maker-bundle": "*",
+        "symfony/phpunit-bridge": "*"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "replace": {
+        "paragonie/random_compat": "*",
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-php71": "*",
+        "symfony/polyfill-php70": "*",
+        "symfony/polyfill-php56": "*"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd",
+            "requirements-checker": "script"
+        },
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ]
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "4.1.*",
+            "docker": false
+        }
+    }
+}
